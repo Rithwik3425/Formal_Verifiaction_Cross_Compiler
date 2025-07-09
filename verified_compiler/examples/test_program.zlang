@@ -1,0 +1,7 @@
+VAR val_one = NUM ( 1 )
+VAR val_five = NUM ( 5 )
+VAR sum_ab = PLUS ( ID ( val_one ) , ID ( val_five ) )
+VAR val_ten = NUM ( 10 )
+VAR product = MULT ( ID ( sum_ab ) , ID ( val_ten ) )
+VAR final_result = MINUS ( ID ( product ) , ID ( val_five ) )
+VAR unused_var = NUM ( 7 )

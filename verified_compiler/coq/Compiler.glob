@@ -1,0 +1,122 @@
+DIGEST 49fbd252f0e128d5645928b5c2c11de2
+FZLangCompiler.Compiler
+R58:62 Coq.Arith.Arith <> <> lib
+R80:85 Coq.Strings.String <> <> lib
+R103:106 Coq.Lists.List <> <> lib
+R124:142 ZLangCompiler.ZLang <> <> lib
+R180:201 ZLangCompiler.APPC_ISA <> <> lib
+R231:243 Coq.Lists.List ListNotations <> mod
+def 375:382 <> temp_reg
+R387:388 ZLangCompiler.APPC_ISA <> R0 constr
+def 402:410 <> temp_reg2
+R415:416 ZLangCompiler.APPC_ISA <> R1 constr
+def 429:440 <> compile_aexp
+R447:450 ZLangCompiler.ZLang <> aexp ind
+binder 443:443 <> a:1
+R463:465 ZLangCompiler.APPC_ISA <> reg ind
+binder 454:459 <> target:2
+R470:476 ZLangCompiler.APPC_ISA <> program def
+R489:489 ZLangCompiler.Compiler <> a:1 var
+R500:503 ZLangCompiler.ZLang <> ANum constr
+R510:510 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R524:524 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R511:514 ZLangCompiler.APPC_ISA <> LOAD constr
+R516:521 ZLangCompiler.Compiler <> target:2 var
+R530:532 ZLangCompiler.ZLang <> AId constr
+R539:539 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R556:556 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R540:546 ZLangCompiler.APPC_ISA <> LOADVAR constr
+R548:553 ZLangCompiler.Compiler <> target:2 var
+R562:566 ZLangCompiler.ZLang <> APlus constr
+R605:614 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R583:594 ZLangCompiler.Compiler <> compile_aexp:3 def
+R599:604 ZLangCompiler.Compiler <> target:2 var
+R640:649 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R615:626 ZLangCompiler.Compiler <> compile_aexp:3 def
+R631:639 ZLangCompiler.Compiler <> temp_reg2 def
+R650:650 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R678:678 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R651:653 ZLangCompiler.APPC_ISA <> ADD constr
+R655:660 ZLangCompiler.Compiler <> target:2 var
+R662:667 ZLangCompiler.Compiler <> target:2 var
+R669:677 ZLangCompiler.Compiler <> temp_reg2 def
+R684:689 ZLangCompiler.ZLang <> AMinus constr
+R728:737 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R706:717 ZLangCompiler.Compiler <> compile_aexp:3 def
+R722:727 ZLangCompiler.Compiler <> target:2 var
+R763:772 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R738:749 ZLangCompiler.Compiler <> compile_aexp:3 def
+R754:762 ZLangCompiler.Compiler <> temp_reg2 def
+R773:773 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R801:801 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R774:776 ZLangCompiler.APPC_ISA <> SUB constr
+R778:783 ZLangCompiler.Compiler <> target:2 var
+R785:790 ZLangCompiler.Compiler <> target:2 var
+R792:800 ZLangCompiler.Compiler <> temp_reg2 def
+R807:811 ZLangCompiler.ZLang <> AMult constr
+R850:859 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R828:839 ZLangCompiler.Compiler <> compile_aexp:3 def
+R844:849 ZLangCompiler.Compiler <> target:2 var
+R885:894 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R860:871 ZLangCompiler.Compiler <> compile_aexp:3 def
+R876:884 ZLangCompiler.Compiler <> temp_reg2 def
+R895:895 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R923:923 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R896:898 ZLangCompiler.APPC_ISA <> MUL constr
+R900:905 ZLangCompiler.Compiler <> target:2 var
+R907:912 ZLangCompiler.Compiler <> target:2 var
+R914:922 ZLangCompiler.Compiler <> temp_reg2 def
+def 942:953 <> compile_stmt
+R960:963 ZLangCompiler.ZLang <> stmt ind
+binder 956:956 <> s:5
+R968:974 ZLangCompiler.APPC_ISA <> program def
+R987:987 ZLangCompiler.Compiler <> s:5 var
+R998:1002 ZLangCompiler.ZLang <> SSkip constr
+R1007:1007 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1011:1011 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1008:1010 ZLangCompiler.APPC_ISA <> NOP constr
+R1017:1023 ZLangCompiler.ZLang <> SAssign constr
+R1061:1064 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1038:1049 ZLangCompiler.Compiler <> compile_aexp def
+R1053:1060 ZLangCompiler.Compiler <> temp_reg def
+R1065:1065 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1082:1082 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1066:1070 ZLangCompiler.APPC_ISA <> STORE constr
+R1074:1081 ZLangCompiler.Compiler <> temp_reg def
+R1088:1091 ZLangCompiler.ZLang <> SSeq constr
+R1123:1126 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1108:1119 ZLangCompiler.Compiler <> compile_stmt:6 def
+R1127:1138 ZLangCompiler.Compiler <> compile_stmt:6 def
+def 1162:1187 <> Compile_ZL_to_APPC_Trusted
+R1194:1197 ZLangCompiler.ZLang <> stmt ind
+binder 1190:1190 <> s:8
+R1202:1208 ZLangCompiler.APPC_ISA <> program def
+R1215:1226 ZLangCompiler.Compiler <> compile_stmt def
+R1228:1228 ZLangCompiler.Compiler <> s:8 var
+prf 1240:1259 <> compiler_correctness
+R1275:1278 ZLangCompiler.ZLang <> stmt ind
+binder 1271:1271 <> s:9
+R1292:1296 ZLangCompiler.ZLang <> state def
+binder 1282:1284 <> st1:10
+binder 1286:1288 <> st2:11
+R1322:1327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1302:1311 ZLangCompiler.ZLang <> eval_zlang ind
+R1313:1313 ZLangCompiler.Compiler <> s:9 var
+R1315:1317 ZLangCompiler.Compiler <> st1:10 var
+R1319:1321 ZLangCompiler.Compiler <> st2:11 var
+R1344:1369 ZLangCompiler.Compiler <> Compile_ZL_to_APPC_Trusted def
+R1371:1371 ZLangCompiler.Compiler <> s:9 var
+binder 1332:1339 <> compiled:12
+R1393:1410 ZLangCompiler.APPC_ISA <> init_machine_state def
+R1413:1425 ZLangCompiler.APPC_ISA <> convert_state def
+R1427:1429 ZLangCompiler.Compiler <> st1:10 var
+binder 1382:1388 <> init_ms:13
+R1453:1464 ZLangCompiler.APPC_ISA <> exec_program def
+R1471:1478 ZLangCompiler.Compiler <> compiled:12 var
+R1480:1486 ZLangCompiler.Compiler <> init_ms:13 var
+binder 1441:1448 <> final_ms:14
+R1516:1518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1493:1506 ZLangCompiler.APPC_ISA <> extract_memory def
+R1508:1515 ZLangCompiler.Compiler <> final_ms:14 var
+R1519:1531 ZLangCompiler.APPC_ISA <> convert_state def
+R1533:1535 ZLangCompiler.Compiler <> st2:11 var

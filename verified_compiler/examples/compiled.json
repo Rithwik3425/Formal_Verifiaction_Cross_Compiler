@@ -1,0 +1,125 @@
+[
+  {
+    "Load": [
+      "R0",
+      1
+    ]
+  },
+  {
+    "Store": [
+      "val_one",
+      "R0"
+    ]
+  },
+  {
+    "Load": [
+      "R0",
+      5
+    ]
+  },
+  {
+    "Store": [
+      "val_five",
+      "R0"
+    ]
+  },
+  {
+    "LoadVar": [
+      "R0",
+      "val_one"
+    ]
+  },
+  {
+    "LoadVar": [
+      "R1",
+      "val_five"
+    ]
+  },
+  {
+    "Sub": [
+      "R0",
+      "R0",
+      "R1"
+    ]
+  },
+  {
+    "Store": [
+      "sum_ab",
+      "R0"
+    ]
+  },
+  {
+    "Load": [
+      "R0",
+      10
+    ]
+  },
+  {
+    "Store": [
+      "val_ten",
+      "R0"
+    ]
+  },
+  {
+    "LoadVar": [
+      "R0",
+      "sum_ab"
+    ]
+  },
+  {
+    "LoadVar": [
+      "R1",
+      "val_ten"
+    ]
+  },
+  {
+    "Mul": [
+      "R0",
+      "R0",
+      "R1"
+    ]
+  },
+  {
+    "Store": [
+      "product",
+      "R0"
+    ]
+  },
+  {
+    "LoadVar": [
+      "R0",
+      "product"
+    ]
+  },
+  {
+    "LoadVar": [
+      "R1",
+      "val_five"
+    ]
+  },
+  {
+    "Sub": [
+      "R0",
+      "R0",
+      "R1"
+    ]
+  },
+  {
+    "Store": [
+      "final_result",
+      "R0"
+    ]
+  },
+  {
+    "Load": [
+      "R0",
+      7
+    ]
+  },
+  {
+    "Store": [
+      "unused_var",
+      "R0"
+    ]
+  }
+]

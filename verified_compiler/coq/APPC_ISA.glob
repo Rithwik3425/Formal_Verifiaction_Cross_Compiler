@@ -1,0 +1,312 @@
+DIGEST b4ea65c27548352fb2dd22c2ed5bf110
+FZLangCompiler.APPC_ISA
+R62:66 Coq.Arith.Arith <> <> lib
+R84:89 Coq.Strings.String <> <> lib
+R107:110 Coq.Lists.List <> <> lib
+R128:146 ZLangCompiler.ZLang <> <> lib
+R176:188 Coq.Lists.List ListNotations <> mod
+ind 218:220 <> reg
+constr 236:237 <> R0
+constr 241:242 <> R1
+constr 246:247 <> R2
+constr 251:252 <> R3
+constr 256:257 <> R4
+constr 261:262 <> R5
+constr 266:267 <> R6
+constr 271:272 <> R7
+scheme 218:220 <> reg_rect
+scheme 218:220 <> reg_ind
+scheme 218:220 <> reg_rec
+scheme 218:220 <> reg_sind
+ind 370:374 <> instr
+constr 390:393 <> LOAD
+constr 421:427 <> LOADVAR
+constr 455:459 <> STORE
+constr 487:489 <> ADD
+constr 524:526 <> SUB
+constr 561:563 <> MUL
+constr 598:600 <> NOP
+R400:403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R397:399 ZLangCompiler.APPC_ISA <> reg ind
+R407:410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R404:406 Coq.Init.Datatypes <> nat ind
+R411:415 ZLangCompiler.APPC_ISA <> instr:3 ind
+R434:437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R431:433 ZLangCompiler.APPC_ISA <> reg ind
+R441:444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R438:440 ZLangCompiler.ZLang <> var def
+R445:449 ZLangCompiler.APPC_ISA <> instr:3 ind
+R466:469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R463:465 ZLangCompiler.ZLang <> var def
+R473:476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R470:472 ZLangCompiler.APPC_ISA <> reg ind
+R477:481 ZLangCompiler.APPC_ISA <> instr:3 ind
+R496:499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R493:495 ZLangCompiler.APPC_ISA <> reg ind
+R503:506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R500:502 ZLangCompiler.APPC_ISA <> reg ind
+R510:513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R507:509 ZLangCompiler.APPC_ISA <> reg ind
+R514:518 ZLangCompiler.APPC_ISA <> instr:3 ind
+R533:536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R530:532 ZLangCompiler.APPC_ISA <> reg ind
+R540:543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:539 ZLangCompiler.APPC_ISA <> reg ind
+R547:550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R544:546 ZLangCompiler.APPC_ISA <> reg ind
+R551:555 ZLangCompiler.APPC_ISA <> instr:3 ind
+R570:573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R567:569 ZLangCompiler.APPC_ISA <> reg ind
+R577:580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R574:576 ZLangCompiler.APPC_ISA <> reg ind
+R584:587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R581:583 ZLangCompiler.APPC_ISA <> reg ind
+R588:592 ZLangCompiler.APPC_ISA <> instr:3 ind
+R604:608 ZLangCompiler.APPC_ISA <> instr:3 ind
+scheme 370:374 <> instr_rect
+scheme 370:374 <> instr_ind
+scheme 370:374 <> instr_rec
+scheme 370:374 <> instr_sind
+def 623:629 <> program
+R634:637 Coq.Init.Datatypes <> list ind
+R639:643 ZLangCompiler.APPC_ISA <> instr ind
+def 657:663 <> regfile
+R671:674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R668:670 ZLangCompiler.APPC_ISA <> reg ind
+R675:677 Coq.Init.Datatypes <> nat ind
+def 691:696 <> memory
+R704:707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R701:703 ZLangCompiler.ZLang <> var def
+R708:710 Coq.Init.Datatypes <> nat ind
+rec 721:733 <> machine_state
+proj 742:745 <> regs
+proj 760:762 <> mem
+proj 776:777 <> pc
+R749:755 ZLangCompiler.APPC_ISA <> regfile def
+R766:771 ZLangCompiler.APPC_ISA <> memory def
+R781:783 Coq.Init.Datatypes <> nat ind
+def 800:817 <> init_machine_state
+R824:829 ZLangCompiler.APPC_ISA <> memory def
+binder 820:820 <> m:9
+R834:846 ZLangCompiler.APPC_ISA <> machine_state rec
+R856:859 ZLangCompiler.APPC_ISA <> regs proj
+R856:859 ZLangCompiler.APPC_ISA <> regs proj
+R856:859 ZLangCompiler.APPC_ISA <> regs proj
+R876:878 ZLangCompiler.APPC_ISA <> mem proj
+R876:878 ZLangCompiler.APPC_ISA <> mem proj
+R886:887 ZLangCompiler.APPC_ISA <> pc proj
+R886:887 ZLangCompiler.APPC_ISA <> pc proj
+R883:883 ZLangCompiler.APPC_ISA <> m:9 var
+def 910:919 <> reg_eq_dec
+R939:941 ZLangCompiler.APPC_ISA <> reg ind
+binder 931:932 <> r1:10
+binder 934:935 <> r2:11
+R945:945 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R953:957 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R966:966 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R948:950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R946:947 ZLangCompiler.APPC_ISA <> r1:10 var
+R951:952 ZLangCompiler.APPC_ISA <> r2:11 var
+R960:963 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R958:959 ZLangCompiler.APPC_ISA <> r1:10 var
+R964:965 ZLangCompiler.APPC_ISA <> r2:11 var
+def 1014:1023 <> update_reg
+R1031:1037 ZLangCompiler.APPC_ISA <> regfile def
+binder 1026:1027 <> rf:12
+R1045:1047 ZLangCompiler.APPC_ISA <> reg ind
+binder 1041:1041 <> r:13
+R1055:1057 Coq.Init.Datatypes <> nat ind
+binder 1051:1051 <> v:14
+R1062:1068 ZLangCompiler.APPC_ISA <> regfile def
+binder 1079:1080 <> r':15
+R1088:1097 ZLangCompiler.APPC_ISA <> reg_eq_dec def
+R1099:1099 ZLangCompiler.APPC_ISA <> r:13 var
+R1101:1102 ZLangCompiler.APPC_ISA <> r':15 var
+R1116:1117 ZLangCompiler.APPC_ISA <> rf:12 var
+R1119:1120 ZLangCompiler.APPC_ISA <> r':15 var
+R1109:1109 ZLangCompiler.APPC_ISA <> v:14 var
+def 1135:1144 <> update_mem
+R1151:1156 ZLangCompiler.APPC_ISA <> memory def
+binder 1147:1147 <> m:16
+R1164:1166 ZLangCompiler.ZLang <> var def
+binder 1160:1160 <> x:17
+R1174:1176 Coq.Init.Datatypes <> nat ind
+binder 1170:1170 <> v:18
+R1181:1186 ZLangCompiler.APPC_ISA <> memory def
+binder 1197:1197 <> y:19
+R1205:1214 Coq.Strings.String <> string_dec def
+R1216:1216 ZLangCompiler.APPC_ISA <> x:17 var
+R1218:1218 ZLangCompiler.APPC_ISA <> y:19 var
+R1232:1232 ZLangCompiler.APPC_ISA <> m:16 var
+R1234:1234 ZLangCompiler.APPC_ISA <> y:19 var
+R1225:1225 ZLangCompiler.APPC_ISA <> v:18 var
+def 1249:1258 <> exec_instr
+R1265:1277 ZLangCompiler.APPC_ISA <> machine_state rec
+binder 1261:1261 <> s:20
+R1285:1289 ZLangCompiler.APPC_ISA <> instr ind
+binder 1281:1281 <> i:21
+R1294:1306 ZLangCompiler.APPC_ISA <> machine_state rec
+R1319:1319 ZLangCompiler.APPC_ISA <> i:21 var
+R1330:1333 ZLangCompiler.APPC_ISA <> LOAD constr
+R1352:1355 ZLangCompiler.APPC_ISA <> regs proj
+R1352:1355 ZLangCompiler.APPC_ISA <> regs proj
+R1352:1355 ZLangCompiler.APPC_ISA <> regs proj
+R1386:1388 ZLangCompiler.APPC_ISA <> mem proj
+R1386:1388 ZLangCompiler.APPC_ISA <> mem proj
+R1402:1403 ZLangCompiler.APPC_ISA <> pc proj
+R1402:1403 ZLangCompiler.APPC_ISA <> pc proj
+R1360:1369 ZLangCompiler.APPC_ISA <> update_reg def
+R1374:1377 ZLangCompiler.APPC_ISA <> regs proj
+R1371:1371 ZLangCompiler.APPC_ISA <> s:20 var
+R1396:1398 ZLangCompiler.APPC_ISA <> mem proj
+R1393:1393 ZLangCompiler.APPC_ISA <> s:20 var
+R1414:1416 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1411:1412 ZLangCompiler.APPC_ISA <> pc proj
+R1408:1408 ZLangCompiler.APPC_ISA <> s:20 var
+R1426:1432 ZLangCompiler.APPC_ISA <> LOADVAR constr
+R1451:1454 ZLangCompiler.APPC_ISA <> regs proj
+R1451:1454 ZLangCompiler.APPC_ISA <> regs proj
+R1451:1454 ZLangCompiler.APPC_ISA <> regs proj
+R1495:1497 ZLangCompiler.APPC_ISA <> mem proj
+R1495:1497 ZLangCompiler.APPC_ISA <> mem proj
+R1511:1512 ZLangCompiler.APPC_ISA <> pc proj
+R1511:1512 ZLangCompiler.APPC_ISA <> pc proj
+R1459:1468 ZLangCompiler.APPC_ISA <> update_reg def
+R1473:1476 ZLangCompiler.APPC_ISA <> regs proj
+R1470:1470 ZLangCompiler.APPC_ISA <> s:20 var
+R1486:1488 ZLangCompiler.APPC_ISA <> mem proj
+R1483:1483 ZLangCompiler.APPC_ISA <> s:20 var
+R1505:1507 ZLangCompiler.APPC_ISA <> mem proj
+R1502:1502 ZLangCompiler.APPC_ISA <> s:20 var
+R1523:1525 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1520:1521 ZLangCompiler.APPC_ISA <> pc proj
+R1517:1517 ZLangCompiler.APPC_ISA <> s:20 var
+R1535:1539 ZLangCompiler.APPC_ISA <> STORE constr
+R1558:1561 ZLangCompiler.APPC_ISA <> regs proj
+R1558:1561 ZLangCompiler.APPC_ISA <> regs proj
+R1558:1561 ZLangCompiler.APPC_ISA <> regs proj
+R1576:1578 ZLangCompiler.APPC_ISA <> mem proj
+R1576:1578 ZLangCompiler.APPC_ISA <> mem proj
+R1619:1620 ZLangCompiler.APPC_ISA <> pc proj
+R1619:1620 ZLangCompiler.APPC_ISA <> pc proj
+R1569:1572 ZLangCompiler.APPC_ISA <> regs proj
+R1566:1566 ZLangCompiler.APPC_ISA <> s:20 var
+R1583:1592 ZLangCompiler.APPC_ISA <> update_mem def
+R1597:1599 ZLangCompiler.APPC_ISA <> mem proj
+R1594:1594 ZLangCompiler.APPC_ISA <> s:20 var
+R1608:1611 ZLangCompiler.APPC_ISA <> regs proj
+R1605:1605 ZLangCompiler.APPC_ISA <> s:20 var
+R1631:1633 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1628:1629 ZLangCompiler.APPC_ISA <> pc proj
+R1625:1625 ZLangCompiler.APPC_ISA <> s:20 var
+R1643:1645 ZLangCompiler.APPC_ISA <> ADD constr
+R1670:1673 ZLangCompiler.APPC_ISA <> regs proj
+R1670:1673 ZLangCompiler.APPC_ISA <> regs proj
+R1670:1673 ZLangCompiler.APPC_ISA <> regs proj
+R1732:1734 ZLangCompiler.APPC_ISA <> mem proj
+R1732:1734 ZLangCompiler.APPC_ISA <> mem proj
+R1748:1749 ZLangCompiler.APPC_ISA <> pc proj
+R1748:1749 ZLangCompiler.APPC_ISA <> pc proj
+R1678:1687 ZLangCompiler.APPC_ISA <> update_reg def
+R1692:1695 ZLangCompiler.APPC_ISA <> regs proj
+R1689:1689 ZLangCompiler.APPC_ISA <> s:20 var
+R1714:1716 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1705:1708 ZLangCompiler.APPC_ISA <> regs proj
+R1702:1702 ZLangCompiler.APPC_ISA <> s:20 var
+R1720:1723 ZLangCompiler.APPC_ISA <> regs proj
+R1717:1717 ZLangCompiler.APPC_ISA <> s:20 var
+R1742:1744 ZLangCompiler.APPC_ISA <> mem proj
+R1739:1739 ZLangCompiler.APPC_ISA <> s:20 var
+R1760:1762 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1757:1758 ZLangCompiler.APPC_ISA <> pc proj
+R1754:1754 ZLangCompiler.APPC_ISA <> s:20 var
+R1772:1774 ZLangCompiler.APPC_ISA <> SUB constr
+R1799:1802 ZLangCompiler.APPC_ISA <> regs proj
+R1799:1802 ZLangCompiler.APPC_ISA <> regs proj
+R1799:1802 ZLangCompiler.APPC_ISA <> regs proj
+R1861:1863 ZLangCompiler.APPC_ISA <> mem proj
+R1861:1863 ZLangCompiler.APPC_ISA <> mem proj
+R1877:1878 ZLangCompiler.APPC_ISA <> pc proj
+R1877:1878 ZLangCompiler.APPC_ISA <> pc proj
+R1807:1816 ZLangCompiler.APPC_ISA <> update_reg def
+R1821:1824 ZLangCompiler.APPC_ISA <> regs proj
+R1818:1818 ZLangCompiler.APPC_ISA <> s:20 var
+R1843:1845 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R1834:1837 ZLangCompiler.APPC_ISA <> regs proj
+R1831:1831 ZLangCompiler.APPC_ISA <> s:20 var
+R1849:1852 ZLangCompiler.APPC_ISA <> regs proj
+R1846:1846 ZLangCompiler.APPC_ISA <> s:20 var
+R1871:1873 ZLangCompiler.APPC_ISA <> mem proj
+R1868:1868 ZLangCompiler.APPC_ISA <> s:20 var
+R1889:1891 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1886:1887 ZLangCompiler.APPC_ISA <> pc proj
+R1883:1883 ZLangCompiler.APPC_ISA <> s:20 var
+R1901:1903 ZLangCompiler.APPC_ISA <> MUL constr
+R1928:1931 ZLangCompiler.APPC_ISA <> regs proj
+R1928:1931 ZLangCompiler.APPC_ISA <> regs proj
+R1928:1931 ZLangCompiler.APPC_ISA <> regs proj
+R1990:1992 ZLangCompiler.APPC_ISA <> mem proj
+R1990:1992 ZLangCompiler.APPC_ISA <> mem proj
+R2006:2007 ZLangCompiler.APPC_ISA <> pc proj
+R2006:2007 ZLangCompiler.APPC_ISA <> pc proj
+R1936:1945 ZLangCompiler.APPC_ISA <> update_reg def
+R1950:1953 ZLangCompiler.APPC_ISA <> regs proj
+R1947:1947 ZLangCompiler.APPC_ISA <> s:20 var
+R1972:1974 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1963:1966 ZLangCompiler.APPC_ISA <> regs proj
+R1960:1960 ZLangCompiler.APPC_ISA <> s:20 var
+R1978:1981 ZLangCompiler.APPC_ISA <> regs proj
+R1975:1975 ZLangCompiler.APPC_ISA <> s:20 var
+R2000:2002 ZLangCompiler.APPC_ISA <> mem proj
+R1997:1997 ZLangCompiler.APPC_ISA <> s:20 var
+R2018:2020 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2015:2016 ZLangCompiler.APPC_ISA <> pc proj
+R2012:2012 ZLangCompiler.APPC_ISA <> s:20 var
+R2030:2032 ZLangCompiler.APPC_ISA <> NOP constr
+R2046:2049 ZLangCompiler.APPC_ISA <> regs proj
+R2046:2049 ZLangCompiler.APPC_ISA <> regs proj
+R2046:2049 ZLangCompiler.APPC_ISA <> regs proj
+R2064:2066 ZLangCompiler.APPC_ISA <> mem proj
+R2064:2066 ZLangCompiler.APPC_ISA <> mem proj
+R2080:2081 ZLangCompiler.APPC_ISA <> pc proj
+R2080:2081 ZLangCompiler.APPC_ISA <> pc proj
+R2057:2060 ZLangCompiler.APPC_ISA <> regs proj
+R2054:2054 ZLangCompiler.APPC_ISA <> s:20 var
+R2074:2076 ZLangCompiler.APPC_ISA <> mem proj
+R2071:2071 ZLangCompiler.APPC_ISA <> s:20 var
+R2092:2094 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2089:2090 ZLangCompiler.APPC_ISA <> pc proj
+R2086:2086 ZLangCompiler.APPC_ISA <> s:20 var
+def 2117:2128 <> exec_program
+R2138:2140 Coq.Init.Datatypes <> nat ind
+binder 2131:2134 <> fuel:23
+R2148:2154 ZLangCompiler.APPC_ISA <> program def
+binder 2144:2144 <> p:24
+R2162:2174 ZLangCompiler.APPC_ISA <> machine_state rec
+binder 2158:2158 <> s:25
+R2179:2191 ZLangCompiler.APPC_ISA <> machine_state rec
+R2204:2207 ZLangCompiler.APPC_ISA <> fuel:23 var
+R2223:2223 ZLangCompiler.APPC_ISA <> s:25 var
+R2229:2229 Coq.Init.Datatypes <> S constr
+R2252:2260 Coq.Lists.List <> nth_error def
+R2267:2268 ZLangCompiler.APPC_ISA <> pc proj
+R2264:2264 ZLangCompiler.APPC_ISA <> s:25 var
+R2262:2262 ZLangCompiler.APPC_ISA <> p:24 var
+R2284:2287 Coq.Init.Datatypes <> None constr
+R2292:2292 ZLangCompiler.APPC_ISA <> s:25 var
+R2302:2305 Coq.Init.Datatypes <> Some constr
+R2316:2327 ZLangCompiler.APPC_ISA <> exec_program:26 def
+R2338:2347 ZLangCompiler.APPC_ISA <> exec_instr def
+R2349:2349 ZLangCompiler.APPC_ISA <> s:25 var
+R2335:2335 ZLangCompiler.APPC_ISA <> p:24 var
+def 2387:2399 <> convert_state
+R2406:2430 ZLangCompiler.ZLang <> state def
+binder 2402:2402 <> s:28
+R2435:2440 ZLangCompiler.APPC_ISA <> memory def
+R2445:2445 ZLangCompiler.APPC_ISA <> s:28 var
+def 2490:2503 <> extract_memory
+R2511:2523 ZLangCompiler.APPC_ISA <> machine_state rec
+binder 2506:2507 <> ms:29
+R2528:2533 ZLangCompiler.APPC_ISA <> memory def
+R2542:2544 ZLangCompiler.APPC_ISA <> mem proj
+R2538:2539 ZLangCompiler.APPC_ISA <> ms:29 var

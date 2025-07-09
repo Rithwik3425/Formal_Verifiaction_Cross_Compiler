@@ -1,0 +1,214 @@
+DIGEST 7418ad5115c421c7ce1781eded9e5670
+FZLangCompiler.Validator
+R53:57 Coq.Arith.Arith <> <> lib
+R75:80 Coq.Strings.String <> <> lib
+R98:101 Coq.Lists.List <> <> lib
+R119:122 Coq.Bool.Bool <> <> lib
+R140:158 ZLangCompiler.ZLang <> <> lib
+R176:197 ZLangCompiler.APPC_ISA <> <> lib
+R215:236 ZLangCompiler.Compiler <> <> lib
+R246:258 Coq.Lists.List ListNotations <> mod
+ind 294:300 <> sym_val
+constr 316:321 <> SConst
+constr 344:347 <> SVar
+constr 390:394 <> SPlus
+constr 432:437 <> SMinus
+constr 475:479 <> SMult
+R328:331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R325:327 Coq.Init.Datatypes <> nat ind
+R332:338 ZLangCompiler.Validator <> sym_val:1 ind
+R354:357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R351:353 ZLangCompiler.ZLang <> var def
+R358:364 ZLangCompiler.Validator <> sym_val:1 ind
+R405:408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R398:404 ZLangCompiler.Validator <> sym_val:1 ind
+R416:419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R409:415 ZLangCompiler.Validator <> sym_val:1 ind
+R420:426 ZLangCompiler.Validator <> sym_val:1 ind
+R448:451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R441:447 ZLangCompiler.Validator <> sym_val:1 ind
+R459:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R452:458 ZLangCompiler.Validator <> sym_val:1 ind
+R463:469 ZLangCompiler.Validator <> sym_val:1 ind
+R490:493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R483:489 ZLangCompiler.Validator <> sym_val:1 ind
+R501:504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R494:500 ZLangCompiler.Validator <> sym_val:1 ind
+R505:511 ZLangCompiler.Validator <> sym_val:1 ind
+scheme 294:300 <> sym_val_rect
+scheme 294:300 <> sym_val_ind
+scheme 294:300 <> sym_val_rec
+scheme 294:300 <> sym_val_sind
+def 547:555 <> sym_state
+R563:566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R560:562 ZLangCompiler.ZLang <> var def
+R567:573 ZLangCompiler.Validator <> sym_val ind
+def 608:621 <> init_sym_state
+R625:633 ZLangCompiler.Validator <> sym_state def
+binder 642:642 <> x:3
+R647:650 ZLangCompiler.Validator <> SVar constr
+R652:652 ZLangCompiler.Validator <> x:3 var
+def 667:682 <> update_sym_state
+R690:698 ZLangCompiler.Validator <> sym_state def
+binder 685:686 <> ss:4
+R706:708 ZLangCompiler.ZLang <> var def
+binder 702:702 <> x:5
+R716:722 ZLangCompiler.Validator <> sym_val ind
+binder 712:712 <> v:6
+R727:735 ZLangCompiler.Validator <> sym_state def
+binder 746:746 <> y:7
+R754:763 Coq.Strings.String <> string_dec def
+R765:765 ZLangCompiler.Validator <> x:5 var
+R767:767 ZLangCompiler.Validator <> y:7 var
+R781:782 ZLangCompiler.Validator <> ss:4 var
+R784:784 ZLangCompiler.Validator <> y:7 var
+R774:774 ZLangCompiler.Validator <> v:6 var
+def 797:812 <> sym_compile_aexp
+R819:822 ZLangCompiler.ZLang <> aexp ind
+binder 815:815 <> a:8
+R831:839 ZLangCompiler.Validator <> sym_state def
+binder 826:827 <> ss:9
+R844:850 ZLangCompiler.Validator <> sym_val ind
+R863:863 ZLangCompiler.Validator <> a:8 var
+R874:877 ZLangCompiler.ZLang <> ANum constr
+R884:889 ZLangCompiler.Validator <> SConst constr
+R897:899 ZLangCompiler.ZLang <> AId constr
+R906:907 ZLangCompiler.Validator <> ss:9 var
+R994:998 ZLangCompiler.ZLang <> APlus constr
+R1009:1013 ZLangCompiler.Validator <> SPlus constr
+R1016:1031 ZLangCompiler.Validator <> sym_compile_aexp:10 def
+R1036:1037 ZLangCompiler.Validator <> ss:9 var
+R1041:1056 ZLangCompiler.Validator <> sym_compile_aexp:10 def
+R1061:1062 ZLangCompiler.Validator <> ss:9 var
+R1069:1074 ZLangCompiler.ZLang <> AMinus constr
+R1085:1090 ZLangCompiler.Validator <> SMinus constr
+R1093:1108 ZLangCompiler.Validator <> sym_compile_aexp:10 def
+R1113:1114 ZLangCompiler.Validator <> ss:9 var
+R1118:1133 ZLangCompiler.Validator <> sym_compile_aexp:10 def
+R1138:1139 ZLangCompiler.Validator <> ss:9 var
+R1146:1150 ZLangCompiler.ZLang <> AMult constr
+R1161:1165 ZLangCompiler.Validator <> SMult constr
+R1168:1183 ZLangCompiler.Validator <> sym_compile_aexp:10 def
+R1188:1189 ZLangCompiler.Validator <> ss:9 var
+R1193:1208 ZLangCompiler.Validator <> sym_compile_aexp:10 def
+R1213:1214 ZLangCompiler.Validator <> ss:9 var
+def 1234:1247 <> sym_exec_zlang
+R1254:1257 ZLangCompiler.ZLang <> stmt ind
+binder 1250:1250 <> s:12
+R1266:1274 ZLangCompiler.Validator <> sym_state def
+binder 1261:1262 <> ss:13
+R1279:1287 ZLangCompiler.Validator <> sym_state def
+R1300:1300 ZLangCompiler.Validator <> s:12 var
+R1311:1315 ZLangCompiler.ZLang <> SSkip constr
+R1320:1321 ZLangCompiler.Validator <> ss:13 var
+R1327:1333 ZLangCompiler.ZLang <> SAssign constr
+R1342:1357 ZLangCompiler.Validator <> update_sym_state def
+R1359:1360 ZLangCompiler.Validator <> ss:13 var
+R1365:1380 ZLangCompiler.Validator <> sym_compile_aexp def
+R1384:1385 ZLangCompiler.Validator <> ss:13 var
+R1392:1395 ZLangCompiler.ZLang <> SSeq constr
+R1406:1419 ZLangCompiler.Validator <> sym_exec_zlang:14 def
+R1425:1438 ZLangCompiler.Validator <> sym_exec_zlang:14 def
+R1443:1444 ZLangCompiler.Validator <> ss:13 var
+def 1524:1539 <> sym_exec_program
+R1546:1552 ZLangCompiler.APPC_ISA <> program def
+binder 1542:1542 <> p:16
+R1582:1590 ZLangCompiler.Validator <> sym_state def
+binder 1556:1578 <> initial_vars_as_symbols:17
+R1595:1603 ZLangCompiler.Validator <> sym_state def
+R1886:1908 ZLangCompiler.Validator <> initial_vars_as_symbols:17 var
+def 2035:2047 <> sym_val_equiv
+R2058:2064 ZLangCompiler.Validator <> sym_val ind
+binder 2050:2051 <> v1:18
+binder 2053:2054 <> v2:19
+R2069:2072 Coq.Init.Datatypes <> bool ind
+R2089:2090 ZLangCompiler.Validator <> v2:19 var
+R2085:2086 ZLangCompiler.Validator <> v1:18 var
+R2101:2106 ZLangCompiler.Validator <> SConst constr
+R2112:2117 ZLangCompiler.Validator <> SConst constr
+R2125:2131 Coq.Arith.PeanoNat Nat eqb def
+R2143:2146 ZLangCompiler.Validator <> SVar constr
+R2152:2155 ZLangCompiler.Validator <> SVar constr
+R2175:2184 Coq.Strings.String <> string_dec def
+R2238:2241 Coq.Init.Specif <> left constr
+R2249:2252 Coq.Init.Datatypes <> true constr
+R2292:2296 Coq.Init.Specif <> right constr
+R2303:2307 Coq.Init.Datatypes <> false constr
+R2356:2360 ZLangCompiler.Validator <> SPlus constr
+R2373:2377 ZLangCompiler.Validator <> SPlus constr
+R2392:2395 Coq.Init.Datatypes <> andb def
+R2424:2436 ZLangCompiler.Validator <> sym_val_equiv:20 def
+R2398:2410 ZLangCompiler.Validator <> sym_val_equiv:20 def
+R2453:2458 ZLangCompiler.Validator <> SMinus constr
+R2471:2476 ZLangCompiler.Validator <> SMinus constr
+R2491:2494 Coq.Init.Datatypes <> andb def
+R2523:2535 ZLangCompiler.Validator <> sym_val_equiv:20 def
+R2497:2509 ZLangCompiler.Validator <> sym_val_equiv:20 def
+R2552:2556 ZLangCompiler.Validator <> SMult constr
+R2569:2573 ZLangCompiler.Validator <> SMult constr
+R2588:2591 Coq.Init.Datatypes <> andb def
+R2620:2632 ZLangCompiler.Validator <> sym_val_equiv:20 def
+R2594:2606 ZLangCompiler.Validator <> sym_val_equiv:20 def
+R2657:2661 Coq.Init.Datatypes <> false constr
+def 2755:2762 <> Validate
+R2775:2778 ZLangCompiler.ZLang <> stmt ind
+binder 2765:2771 <> s_zlang:23
+R2791:2797 ZLangCompiler.APPC_ISA <> program def
+binder 2782:2787 <> p_appc:24
+R2802:2805 Coq.Init.Datatypes <> bool ind
+R2911:2924 ZLangCompiler.Validator <> sym_exec_zlang def
+R2926:2932 ZLangCompiler.Validator <> s_zlang:23 var
+R2934:2947 ZLangCompiler.Validator <> init_sym_state def
+binder 2881:2906 <> zlang_symbolic_final_state:25
+R3073:3088 ZLangCompiler.Validator <> sym_exec_program def
+R3090:3095 ZLangCompiler.Validator <> p_appc:24 var
+R3097:3110 ZLangCompiler.Validator <> init_sym_state def
+binder 3044:3068 <> appc_symbolic_final_state:26
+R3363:3363 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3367:3368 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3372:3373 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3377:3377 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+binder 3346:3358 <> vars_to_check:27
+R3482:3491 Coq.Lists.List <> fold_right def
+R3705:3717 ZLangCompiler.Validator <> vars_to_check:27 var
+R3700:3703 Coq.Init.Datatypes <> true constr
+binder 3498:3505 <> var_name:28
+binder 3507:3526 <> current_match_status:29
+R3535:3538 Coq.Init.Datatypes <> andb def
+R3562:3574 ZLangCompiler.Validator <> sym_val_equiv def
+R3577:3602 ZLangCompiler.Validator <> zlang_symbolic_final_state:25 var
+R3604:3611 ZLangCompiler.Validator <> var_name:28 var
+R3659:3683 ZLangCompiler.Validator <> appc_symbolic_final_state:26 var
+R3685:3692 ZLangCompiler.Validator <> var_name:28 var
+R3540:3559 ZLangCompiler.Validator <> current_match_status:29 var
+prf 3792:3812 <> validator_correctness
+R3828:3831 ZLangCompiler.ZLang <> stmt ind
+binder 3824:3824 <> s:30
+R3839:3845 ZLangCompiler.APPC_ISA <> program def
+binder 3835:3835 <> p:31
+R3870:3875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3863:3865 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3851:3858 ZLangCompiler.Validator <> Validate def
+R3860:3860 ZLangCompiler.Validator <> s:30 var
+R3862:3862 ZLangCompiler.Validator <> p:31 var
+R3866:3869 Coq.Init.Datatypes <> true constr
+binder 3883:3885 <> st1:32
+binder 3887:3889 <> st2:33
+R3912:3917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3892:3901 ZLangCompiler.ZLang <> eval_zlang ind
+R3903:3903 ZLangCompiler.Validator <> s:30 var
+R3905:3907 ZLangCompiler.Validator <> st1:32 var
+R3909:3911 ZLangCompiler.Validator <> st2:33 var
+R3933:3950 ZLangCompiler.APPC_ISA <> init_machine_state def
+R3953:3965 ZLangCompiler.APPC_ISA <> convert_state def
+R3967:3969 ZLangCompiler.Validator <> st1:32 var
+binder 3922:3928 <> init_ms:34
+R3993:4004 ZLangCompiler.APPC_ISA <> exec_program def
+R4011:4011 ZLangCompiler.Validator <> p:31 var
+R4013:4019 ZLangCompiler.Validator <> init_ms:34 var
+binder 3981:3988 <> final_ms:35
+R4049:4051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4026:4039 ZLangCompiler.APPC_ISA <> extract_memory def
+R4041:4048 ZLangCompiler.Validator <> final_ms:35 var
+R4052:4064 ZLangCompiler.APPC_ISA <> convert_state def
+R4066:4068 ZLangCompiler.Validator <> st2:33 var

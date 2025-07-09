@@ -1,0 +1,197 @@
+DIGEST 972993d1c07abfdb25dec6b29ae1b647
+FZLangCompiler.ZLang
+R103:107 Coq.Arith.Arith <> <> lib
+R144:149 Coq.Strings.String <> <> lib
+R207:210 Coq.Lists.List <> <> lib
+R294:297 Coq.Bool.Bool <> <> lib
+R359:378 Coq.Program.Equality <> <> lib
+R419:431 Coq.Lists.List ListNotations <> mod
+def 538:540 <> var
+R545:550 Coq.Strings.String <> string ind
+ind 600:603 <> aexp
+constr 619:622 <> ANum
+constr 684:686 <> AId
+constr 755:759 <> APlus
+constr 803:808 <> AMinus
+constr 851:855 <> AMult
+R629:632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R626:628 Coq.Init.Datatypes <> nat ind
+R633:636 ZLangCompiler.ZLang <> aexp:1 ind
+R693:696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R690:692 ZLangCompiler.ZLang <> var def
+R697:700 ZLangCompiler.ZLang <> aexp:1 ind
+R767:770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R763:766 ZLangCompiler.ZLang <> aexp:1 ind
+R775:778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R771:774 ZLangCompiler.ZLang <> aexp:1 ind
+R779:782 ZLangCompiler.ZLang <> aexp:1 ind
+R816:819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R812:815 ZLangCompiler.ZLang <> aexp:1 ind
+R824:827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R820:823 ZLangCompiler.ZLang <> aexp:1 ind
+R828:831 ZLangCompiler.ZLang <> aexp:1 ind
+R863:866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R859:862 ZLangCompiler.ZLang <> aexp:1 ind
+R871:874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R867:870 ZLangCompiler.ZLang <> aexp:1 ind
+R875:878 ZLangCompiler.ZLang <> aexp:1 ind
+scheme 600:603 <> aexp_rect
+scheme 600:603 <> aexp_ind
+scheme 600:603 <> aexp_rec
+scheme 600:603 <> aexp_sind
+ind 936:939 <> stmt
+constr 955:959 <> SSkip
+constr 1011:1017 <> SAssign
+constr 1066:1069 <> SSeq
+R963:966 ZLangCompiler.ZLang <> stmt:3 ind
+R1024:1027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1021:1023 ZLangCompiler.ZLang <> var def
+R1032:1035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1028:1031 ZLangCompiler.ZLang <> aexp ind
+R1036:1039 ZLangCompiler.ZLang <> stmt:3 ind
+R1077:1080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1073:1076 ZLangCompiler.ZLang <> stmt:3 ind
+R1085:1088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1081:1084 ZLangCompiler.ZLang <> stmt:3 ind
+R1089:1092 ZLangCompiler.ZLang <> stmt:3 ind
+scheme 936:939 <> stmt_rect
+scheme 936:939 <> stmt_ind
+scheme 936:939 <> stmt_rec
+scheme 936:939 <> stmt_sind
+def 1207:1211 <> state
+R1219:1222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1216:1218 ZLangCompiler.ZLang <> var def
+R1223:1225 Coq.Init.Datatypes <> nat ind
+def 1290:1300 <> empty_state
+R1304:1308 ZLangCompiler.ZLang <> state def
+R1324:1326 ZLangCompiler.ZLang <> var def
+def 1611:1616 <> update
+R1627:1631 ZLangCompiler.ZLang <> state def
+binder 1619:1623 <> s_old:5
+R1646:1648 ZLangCompiler.ZLang <> var def
+binder 1635:1642 <> x_target:6
+R1664:1666 Coq.Init.Datatypes <> nat ind
+binder 1652:1660 <> n_new_val:7
+R1671:1675 ZLangCompiler.ZLang <> state def
+R1697:1699 ZLangCompiler.ZLang <> var def
+binder 1687:1693 <> y_query:8
+R1708:1717 Coq.Strings.String <> string_dec def
+R1719:1726 ZLangCompiler.ZLang <> x_target:6 var
+R1728:1734 ZLangCompiler.ZLang <> y_query:8 var
+R1756:1760 ZLangCompiler.ZLang <> s_old:5 var
+R1762:1768 ZLangCompiler.ZLang <> y_query:8 var
+R1741:1749 ZLangCompiler.ZLang <> n_new_val:7 var
+def 1824:1828 <> aeval
+R1843:1847 ZLangCompiler.ZLang <> state def
+binder 1831:1839 <> s_current:9
+R1855:1858 ZLangCompiler.ZLang <> aexp ind
+binder 1851:1851 <> e:10
+R1863:1865 Coq.Init.Datatypes <> nat ind
+R1878:1878 ZLangCompiler.ZLang <> e:10 var
+R1889:1892 ZLangCompiler.ZLang <> ANum constr
+R1917:1919 ZLangCompiler.ZLang <> AId constr
+R1930:1938 ZLangCompiler.ZLang <> s_current:9 var
+R1998:2002 ZLangCompiler.ZLang <> APlus constr
+R2013:2013 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2032:2036 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2055:2055 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2014:2018 ZLangCompiler.ZLang <> aeval:11 def
+R2020:2028 ZLangCompiler.ZLang <> s_current:9 var
+R2037:2041 ZLangCompiler.ZLang <> aeval:11 def
+R2043:2051 ZLangCompiler.ZLang <> s_current:9 var
+R2061:2066 ZLangCompiler.ZLang <> AMinus constr
+R2077:2077 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2096:2100 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2119:2119 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2078:2082 ZLangCompiler.ZLang <> aeval:11 def
+R2084:2092 ZLangCompiler.ZLang <> s_current:9 var
+R2101:2105 ZLangCompiler.ZLang <> aeval:11 def
+R2107:2115 ZLangCompiler.ZLang <> s_current:9 var
+R2165:2169 ZLangCompiler.ZLang <> AMult constr
+R2180:2180 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2199:2203 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2222:2222 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R2181:2185 ZLangCompiler.ZLang <> aeval:11 def
+R2187:2195 ZLangCompiler.ZLang <> s_current:9 var
+R2204:2208 ZLangCompiler.ZLang <> aeval:11 def
+R2210:2218 ZLangCompiler.ZLang <> s_current:9 var
+ind 2401:2410 <> eval_zlang
+constr 2452:2457 <> E_Skip
+constr 2535:2542 <> E_Assign
+constr 2787:2791 <> E_Seq
+R2418:2421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2414:2417 ZLangCompiler.ZLang <> stmt ind
+R2427:2430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2422:2426 ZLangCompiler.ZLang <> state def
+R2436:2439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2431:2435 ZLangCompiler.ZLang <> state def
+R2480:2484 ZLangCompiler.ZLang <> state def
+binder 2468:2476 <> current_s:15
+R2493:2502 ZLangCompiler.ZLang <> eval_zlang:13 ind
+R2520:2528 ZLangCompiler.ZLang <> current_s:15 var
+R2510:2518 ZLangCompiler.ZLang <> current_s:15 var
+R2504:2508 ZLangCompiler.ZLang <> SSkip constr
+R2565:2569 ZLangCompiler.ZLang <> state def
+binder 2553:2561 <> current_s:16
+R2590:2592 ZLangCompiler.ZLang <> var def
+binder 2579:2586 <> x_target:17
+R2614:2617 ZLangCompiler.ZLang <> aexp ind
+binder 2602:2610 <> e_to_eval:18
+R2638:2640 Coq.Init.Datatypes <> nat ind
+binder 2627:2634 <> val_of_e:19
+R2685:2694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2674:2676 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2649:2653 ZLangCompiler.ZLang <> aeval def
+R2655:2663 ZLangCompiler.ZLang <> current_s:16 var
+R2665:2673 ZLangCompiler.ZLang <> e_to_eval:18 var
+R2677:2684 ZLangCompiler.ZLang <> val_of_e:19 var
+R2695:2704 ZLangCompiler.ZLang <> eval_zlang:13 ind
+R2746:2751 ZLangCompiler.ZLang <> update def
+R2753:2761 ZLangCompiler.ZLang <> current_s:16 var
+R2763:2770 ZLangCompiler.ZLang <> x_target:17 var
+R2772:2779 ZLangCompiler.ZLang <> val_of_e:19 var
+R2735:2743 ZLangCompiler.ZLang <> current_s:16 var
+R2707:2713 ZLangCompiler.ZLang <> SAssign constr
+R2715:2722 ZLangCompiler.ZLang <> x_target:17 var
+R2724:2732 ZLangCompiler.ZLang <> e_to_eval:18 var
+binder 2802:2810 <> s_initial:20
+binder 2812:2825 <> s_intermediate:21
+binder 2827:2833 <> s_final:22
+binder 2835:2836 <> c1:23
+binder 2838:2839 <> c2:24
+R2886:2895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2848:2857 ZLangCompiler.ZLang <> eval_zlang:13 ind
+R2872:2885 ZLangCompiler.ZLang <> s_intermediate:21 var
+R2862:2870 ZLangCompiler.ZLang <> s_initial:20 var
+R2859:2860 ZLangCompiler.ZLang <> c1:23 var
+R2932:2941 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2896:2905 ZLangCompiler.ZLang <> eval_zlang:13 ind
+R2925:2931 ZLangCompiler.ZLang <> s_final:22 var
+R2910:2923 ZLangCompiler.ZLang <> s_intermediate:21 var
+R2907:2908 ZLangCompiler.ZLang <> c2:24 var
+R2942:2951 ZLangCompiler.ZLang <> eval_zlang:13 ind
+R2976:2982 ZLangCompiler.ZLang <> s_final:22 var
+R2966:2974 ZLangCompiler.ZLang <> s_initial:20 var
+R2954:2957 ZLangCompiler.ZLang <> SSeq constr
+R2959:2960 ZLangCompiler.ZLang <> c1:23 var
+R2962:2963 ZLangCompiler.ZLang <> c2:24 var
+scheme 2401:2410 <> eval_zlang_ind
+scheme 2401:2410 <> eval_zlang_sind
+prf 3205:3223 <> zlang_deterministic
+binder 3234:3239 <> s_prog:25
+binder 3241:3246 <> c_prog:26
+binder 3248:3257 <> s_final_H1:27
+binder 3259:3268 <> s_final_H2:28
+R3308:3313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3273:3282 ZLangCompiler.ZLang <> eval_zlang ind
+R3284:3289 ZLangCompiler.ZLang <> c_prog:26 var
+R3291:3296 ZLangCompiler.ZLang <> s_prog:25 var
+R3298:3307 ZLangCompiler.ZLang <> s_final_H1:27 var
+R3349:3354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3314:3323 ZLangCompiler.ZLang <> eval_zlang ind
+R3325:3330 ZLangCompiler.ZLang <> c_prog:26 var
+R3332:3337 ZLangCompiler.ZLang <> s_prog:25 var
+R3339:3348 ZLangCompiler.ZLang <> s_final_H2:28 var
+R3365:3367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3355:3364 ZLangCompiler.ZLang <> s_final_H1:27 var
+R3368:3377 ZLangCompiler.ZLang <> s_final_H2:28 var
